@@ -3,7 +3,7 @@ var config = {
     // leave commented to use Mapbox Standard Style
     style: 'mapbox://styles/dogatmn/cm4v9fem6000p01sf12f769y5/draft',
     accessToken: 'pk.eyJ1IjoiZG9nYXRtbiIsImEiOiJjbHlyMTJmcXgwMjQ3MmtzbTRsdm1pejdsIn0.vcEjL7lt8OoOPMP5o1PM6g',
-    showMarkers: false,
+    showMarkers: true,
     markerColor: '#ff70ab',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -56,7 +56,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/F9RvMQJ/f21.png',
+            image: 'https://i.ibb.co/CpR7VhQq/f21.png',
             description: '',
             location: {
                 center: [28.782545583891796,40.97256268087219],
@@ -86,11 +86,11 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/Z60h2K1q/f22.png',
+            image: 'https://i.ibb.co/qYXk9Xwx/f22.png',
             description: '',
             location: {
                 center: [28.782545583891796,40.97256268087219],
-                zoom: 17,
+                zoom: 18,
                 pitch: 0,
                 bearing: -5,
                 speed: 1,
