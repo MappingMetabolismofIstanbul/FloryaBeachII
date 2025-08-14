@@ -3,7 +3,7 @@ var config = {
     // leave commented to use Mapbox Standard Style
     style: 'mapbox://styles/dogatmn/cm4v9fem6000p01sf12f769y5/draft',
     accessToken: 'pk.eyJ1IjoiZG9nYXRtbiIsImEiOiJjbHlyMTJmcXgwMjQ3MmtzbTRsdm1pejdsIn0.vcEjL7lt8OoOPMP5o1PM6g',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#ff70ab',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -19,7 +19,7 @@ var config = {
     title: 'Atatürk Deniz Köşkü / Atatürk Marine Mansion',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
@@ -89,8 +89,8 @@ var config = {
             image: 'https://i.ibb.co/qYXk9Xwx/f22.png',
             description: '',
             location: {
-                center: [28.782545583891796,40.97256268087219],
-                zoom: 18,
+                center: [28.78366550817338,40.97249200118691],
+                zoom: 18.2,
                 pitch: 0,
                 bearing: -5,
                 speed: 1,
@@ -103,7 +103,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
